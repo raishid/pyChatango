@@ -1,9 +1,19 @@
 Metadata-Version: 2.1
-Name: pyChatango
-Version: 0.1
+Name: pychatango-dev
+Version: 0.1.0
 Summary: Send messages to Chatango chatrooms
 Home-page: https://github.com/raishid/pyChatango
 Author: Raishid
 Author-email: raishidavid@gmail.com
+Description-Content-Type: text/markdown
 License-File: LICENSE
 Requires-Dist: playwright
+
+
+# PyChatango
+
+Send messages to Chatango rooms automatically
+
+## Install
+pip install pychatango-dev
+
