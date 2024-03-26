@@ -6,7 +6,7 @@ long_description = (this_directory / "README.md").read_text()
 
 setup(
     name="pychatango-dev",
-    version="0.1.1",
+    version="0.1.0",
     packages=find_packages(),
     description="Send messages to Chatango chatrooms",
     long_description=long_description,
