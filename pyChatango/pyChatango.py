@@ -2,11 +2,10 @@ from playwright.sync_api import sync_playwright, Browser, Page
 from .tempDir import temp_dir
 
 """
-    pyChatango es una librería que permite interactuar con la plataforma de Chatango
-    a través de un navegador web automatizado. La librería permite enviar mensajes
-    :param chatango_link: Link de la sala de chat de Chatango
-    :param login: Usuario de Chatango
-    :param password: Contraseña de Chatango
+    pyChatango is a simple library to send messages to Chatango chatrooms
+    :param chatango_link: link to the chatango chatroom
+    :param login: Chatango username
+    :param password: Password of the Chatango account
 """
 
 
@@ -88,8 +87,8 @@ class pyChatango:
         Exception("Error en el Login")
 
     """
-        Envia un mensaje al chat de Chatango
-        :param message: Mensaje a enviar
+        Send a message to the chatroom
+        :param message: Message to send
     """
 
     def chat(self, message: str):

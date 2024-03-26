@@ -7,6 +7,7 @@ setup(
     description="Send messages to Chatango chatrooms",
     author="Raishid",
     author_email="raishidavid@gmail.com",
+    url="https://github.com/raishid/pyChatango",
     install_requires=[
         "playwright",
     ],
